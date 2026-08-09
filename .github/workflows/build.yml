@@ -14,10 +14,10 @@ jobs:
         config:
           - name: Windows
             os: windows-latest
-            target: Windows
+            target: Win64
           - name: macOS
             os: macos-latest
-            target: macOS
+            target: Macos
           - name: Android32
             os: ubuntu-latest
             target: Android32
