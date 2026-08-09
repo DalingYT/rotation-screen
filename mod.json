@@ -10,6 +10,10 @@
 	"name": "Rotation Screen",
 	"version": "1.0.0",
 	"developer": "DalingYT",
+	"links": {
+		"community": "https://discord.gg/HQBdcWMnkJ",
+		"repository": "https://github.com/DalingYT/rotation-screen"
+	},
 	"tags": ["joke"],
 	"description": "Randomly rotates your screen while you are playing.",
 	"dependencies": {
