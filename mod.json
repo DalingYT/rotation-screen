@@ -1,0 +1,44 @@
+{
+	"geode": "5.8.2",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "dalingyt.rotation-screen",
+	"name": "Rotation Screen",
+	"version": "1.0.0",
+	"developer": "DalingYT",
+	"tags": ["joke"],
+	"description": "Randomly rotates your screen while you are playing.",
+	"dependencies": {
+		"geode.node-ids": ">=v1.23.3"
+	},
+	"settings": {
+		"min-interval": {
+			"name": "Min interval (seconds)",
+			"description": "Minimum time between rotations",
+			"type": "float",
+			"default": 3.0,
+			"min": 0.5,
+			"max": 30.0
+		},
+		"max-interval": {
+			"name": "Max interval (seconds)",
+			"description": "Maximum time between rotations",
+			"type": "float",
+			"default": 8.0,
+			"min": 1.0,
+			"max": 60.0
+		},
+		"rotation-speed": {
+			"name": "Rotation animation duration",
+			"description": "How fast the screen rotates (seconds)",
+			"type": "float",
+			"default": 0.3,
+			"min": 0.05,
+			"max": 2.0
+		}
+	}
+}
