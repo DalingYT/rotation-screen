@@ -17,7 +17,7 @@ jobs:
             target: Win64
           - name: MacOS
             os: macos-latest
-            target: macOS
+            target: MacOS
           - name: iOS
             os: macos-latest
             target: iOS
