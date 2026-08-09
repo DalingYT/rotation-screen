@@ -17,7 +17,7 @@ jobs:
             target: Win64
           - name: macOS
             os: macos-latest
-            target: Macos
+            target: macOS
           - name: Android32
             os: ubuntu-latest
             target: Android32
