@@ -35,4 +35,6 @@ jobs:
       - name: Build Mod
         uses: geode-sdk/build-geode-mod@main
         with:
+          sdk: nightly
+          cli: nightly
           target: ${{ matrix.config.target }}
